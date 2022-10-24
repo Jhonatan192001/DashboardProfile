@@ -12,7 +12,7 @@ const Sidebar = () =>{
 
     return (
     <>
-    <div className={`h-full bg-primary-900 fixed lg:static w-[80%] md:w-[40%] lg:w-full transition-all duration-300
+    <div className={`h-full bg-primary-900 fixed lg:static w-[80%] md:w-[40%] lg:w-full transition-all z-50 duration-300
                     ${showMenu ? "bottom-0" : "-bottom-full"}`}>
         {/* Profile */}
         <div className="flex flex-col items-center justify-center p-8 gap-2 h-[30vh]">
@@ -37,7 +37,7 @@ const Sidebar = () =>{
                     <RiPieChartLine/> Reports
                 </a>
             </nav>
-            <div className="bg-primary-900/50 text-white p-4 rounded-xl">
+            <div className="bg-primary-900/50 text-white p-4 rounded-xl z-50">
                 <p className="text-gray-400">How are you?</p>
                 <a href="#">Contact us</a>
             </div>
