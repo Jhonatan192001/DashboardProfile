@@ -46,7 +46,7 @@ const Sidebar = () =>{
     {/*Button menu*/}
     <button 
     onClick={() => setshowMenu(!showMenu)}
-    className="lg:hidden fixed right-4 bottom-4 text-2xl bg-primary-900 rounded-full p-2 text-white">
+    className="lg:hidden fixed right-4 bottom-4 text-2xl bg-primary-900 rounded-full p-2 text-white z-50">
         {showMenu ? <RiCloseFill/> : <RiMore2Fill/>}
     </button>
     </>
